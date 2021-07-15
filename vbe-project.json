@@ -1,0 +1,16 @@
+﻿{
+  "Info": {
+    "Class": "clsDbVbeProject",
+    "Description": "VBE Project"
+  },
+  "Items": {
+    "Name": "Database10",
+    "Description": "",
+    "FileName": "rel:Database101.accdb",
+    "HelpFile": "",
+    "HelpContextId": 0,
+    "Mode": 0,
+    "Protection": 0,
+    "Type": 100
+  }
+}

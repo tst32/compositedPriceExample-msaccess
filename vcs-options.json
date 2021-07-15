@@ -1,0 +1,56 @@
+﻿{
+  "Info": {
+    "AddinVersion": "3.3.17",
+    "AccessVersion": "16.0 32-bit"
+  },
+  "Options": {
+    "ExportFolder": "",
+    "ShowDebug": true,
+    "UseFastSave": true,
+    "UseGitIntegration": false,
+    "SavePrintVars": true,
+    "ExportPrintSettings": {
+      "Orientation": true,
+      "PaperSize": true,
+      "Duplex": false,
+      "PrintQuality": false,
+      "DisplayFrequency": false,
+      "Collate": false,
+      "Resolution": false,
+      "DisplayFlags": false,
+      "Color": false,
+      "Copies": false,
+      "ICMMethod": false,
+      "DefaultSource": false,
+      "Scale": false,
+      "ICMIntent": false,
+      "FormName": false,
+      "PaperLength": false,
+      "DitherType": false,
+      "MediaType": false,
+      "PaperWidth": false,
+      "TTOption": false
+    },
+    "SaveQuerySQL": true,
+    "ForceImportOriginalQuerySQL": false,
+    "SaveTableSQL": true,
+    "StripPublishOption": true,
+    "AggressiveSanitize": true,
+    "ExtractThemeFiles": false,
+    "TablesToExportData": {
+      "USysRegInfo": {
+        "Format": "Tab Delimited"
+      },
+      "USysRibbons": {
+        "Format": "Tab Delimited"
+      }
+    },
+    "RunBeforeExport": "",
+    "RunAfterExport": "",
+    "RunAfterBuild": "",
+    "ShowVCSLegacy": true,
+    "HashAlgorithm": "SHA256",
+    "UseShortHash": true,
+    "BreakOnError": false
+  }
+}

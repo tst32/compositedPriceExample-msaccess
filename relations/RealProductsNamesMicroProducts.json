@@ -1,0 +1,18 @@
+﻿{
+  "Info": {
+    "Class": "clsDbRelation",
+    "Description": "Database relationship"
+  },
+  "Items": {
+    "Name": "RealProductsNamesMicroProducts",
+    "Attributes": 4352,
+    "Table": "RealProductsNames",
+    "ForeignTable": "MicroProducts",
+    "Fields": [
+      {
+        "Name": "ID",
+        "ForeignName": "RealProductID"
+      }
+    ]
+  }
+}

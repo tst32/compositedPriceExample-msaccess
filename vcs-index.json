@@ -1,0 +1,82 @@
+﻿{
+  "Info": {
+    "Class": "clsVCSIndex",
+    "Description": "Version Control System Index"
+  },
+  "Items": {
+    "MergeBuildDate": null,
+    "FullBuildDate": "15.07.2021 13:39:05",
+    "ExportDate": "15.07.2021 13:36:20",
+    "FullExportDate": "15.07.2021 13:36:20",
+    "OptionsHash": "f00c0b0",
+    "LastMergedCommit": "",
+    "Components": {
+      "Forms": {
+        "frmRealProducts.bas": {
+          "ExportDate": "15.07.2021 13:36:20",
+          "SourceModified": "15.07.2021 13:36:20",
+          "ImportDate": "15.07.2021 13:39:03"
+        }
+      },
+      "Macros": {
+        "AutoExec.bas": {
+          "ExportDate": "15.07.2021 13:36:20",
+          "SourceModified": "15.07.2021 13:36:20",
+          "ImportDate": "15.07.2021 13:39:03"
+        }
+      },
+      "Queries": {
+        "QueryRealProductDetails.bas": {
+          "ExportDate": "15.07.2021 13:36:19",
+          "SourceModified": "15.07.2021 13:36:19",
+          "ImportDate": "15.07.2021 13:39:02"
+        },
+        "QueryRealProductPrice.bas": {
+          "ExportDate": "15.07.2021 13:36:20",
+          "SourceModified": "15.07.2021 13:36:20",
+          "ImportDate": "15.07.2021 13:39:02"
+        }
+      },
+      "Reports": {
+        "PriceList.bas": {
+          "ExportDate": "15.07.2021 13:36:20",
+          "SourceModified": "15.07.2021 13:36:20",
+          "ImportDate": "15.07.2021 13:39:03"
+        }
+      },
+      "Tables": {
+        "MicroProducts.xml": {
+          "ExportDate": "15.07.2021 13:36:19",
+          "SourceModified": "15.07.2021 13:36:19",
+          "ImportDate": "15.07.2021 13:39:02"
+        },
+        "RealProductPrices.xml": {
+          "ExportDate": "15.07.2021 13:36:19",
+          "SourceModified": "15.07.2021 13:36:19",
+          "ImportDate": "15.07.2021 13:39:02"
+        },
+        "RealProductsNames.xml": {
+          "ExportDate": "15.07.2021 13:36:19",
+          "SourceModified": "15.07.2021 13:36:19",
+          "ImportDate": "15.07.2021 13:39:02"
+        }
+      },
+      "VB Project": {
+        "vbe-project.json": {
+          "Hash": "a6767e3",
+          "ExportDate": "15.07.2021 13:36:19",
+          "SourceModified": "15.07.2021 13:34:49",
+          "ImportDate": "15.07.2021 13:39:02"
+        }
+      },
+      "VBE References": {
+        "vbe-references.json": {
+          "Hash": "00e5845",
+          "ExportDate": "15.07.2021 13:36:19",
+          "SourceModified": "15.07.2021 13:34:49",
+          "ImportDate": "15.07.2021 13:39:02"
+        }
+      }
+    }
+  }
+}
