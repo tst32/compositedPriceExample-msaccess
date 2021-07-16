@@ -11,6 +11,10 @@
     "DAO": {
       "GUID": "{4AC9E1DA-5BAD-4AC7-86E3-24F4CDCECA28}",
       "Version": "12.0"
+    },
+    "Office": {
+      "GUID": "{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}",
+      "Version": "2.8"
     }
   }
 }

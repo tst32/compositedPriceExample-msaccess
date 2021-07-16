@@ -543,7 +543,6 @@ Begin Report
                     GroupTable =2
                 End
                 Begin Label
-                    OverlapFlags =81
                     TextAlign =1
                     Left =1050
                     Top =60
@@ -617,7 +616,6 @@ Begin Report
             BackThemeColorIndex =1
             Begin
                 Begin Label
-                    OverlapFlags =81
                     Left =60
                     Top =60
                     Width =3225
@@ -643,7 +641,6 @@ Begin Report
                     GroupTable =1
                 End
                 Begin Label
-                    OverlapFlags =81
                     Left =3345
                     Top =60
                     Width =3225
@@ -775,7 +772,6 @@ Begin Report
                     CanGrow = NotDefault
                     CanShrink = NotDefault
                     OldBorderStyle =0
-                    OverlapFlags =81
                     IMESentenceMode =3
                     Left =60
                     Top =30
@@ -811,7 +807,6 @@ Begin Report
                     CanGrow = NotDefault
                     CanShrink = NotDefault
                     OldBorderStyle =0
-                    OverlapFlags =81
                     IMESentenceMode =3
                     Left =3345
                     Top =30
@@ -862,7 +857,6 @@ Begin Report
                     CanGrow = NotDefault
                     CanShrink = NotDefault
                     OldBorderStyle =0
-                    OverlapFlags =85
                     IMESentenceMode =3
                     Left =60
                     Top =30
@@ -895,7 +889,6 @@ Begin Report
                 End
                 Begin TextBox
                     OldBorderStyle =0
-                    OverlapFlags =81
                     IMESentenceMode =3
                     Left =3345
                     Top =30
@@ -989,7 +982,6 @@ Begin Report
             Begin
                 Begin TextBox
                     OldBorderStyle =0
-                    OverlapFlags =81
                     TextAlign =3
                     BackStyle =0
                     IMESentenceMode =3

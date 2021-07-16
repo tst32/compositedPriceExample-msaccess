@@ -8,10 +8,10 @@ Begin Form
     PictureAlignment =2
     DatasheetGridlinesBehavior =3
     GridY =10
-    Width =13018
+    Width =12368
     DatasheetFontHeight =11
-    ItemSuffix =14
-    Right =20775
+    ItemSuffix =19
+    Right =19830
     Bottom =9855
     DatasheetGridlinesColor =15132391
     RecSrcDt = Begin
@@ -20,6 +20,8 @@ Begin Form
     RecordSource ="RealProductsNames"
     DatasheetFontName ="Calibri"
     AllowDatasheetView =0
+    OnDataSetChange ="[Event Procedure]"
+    OnDataChange ="[Event Procedure]"
     FilterOnLoad =0
     OnOpenEmMacro = Begin
         Version =196611
@@ -158,7 +160,7 @@ Begin Form
             GridlineShade =65.0
         End
         Begin FormHeader
-            Height =542
+            Height =1140
             BackColor =15064278
             Name ="FormHeader"
             AutoHeight =1
@@ -298,7 +300,7 @@ Begin Form
                     LayoutCachedTop =60
                     LayoutCachedWidth =990
                     LayoutCachedHeight =520
-                    TabIndex =1
+                    TabIndex =3
                     LayoutGroup =2
                     GroupTable =2
                 End
@@ -307,7 +309,7 @@ Begin Form
                     TextAlign =1
                     Left =1050
                     Top =60
-                    Width =8595
+                    Width =7680
                     Height =460
                     FontSize =18
                     BorderColor =6968388
@@ -319,7 +321,7 @@ Begin Form
                     GridlineColor =10921638
                     LayoutCachedLeft =1050
                     LayoutCachedTop =60
-                    LayoutCachedWidth =9645
+                    LayoutCachedWidth =8730
                     LayoutCachedHeight =520
                     ColumnStart =1
                     ColumnEnd =1
@@ -333,13 +335,13 @@ Begin Form
                 End
                 Begin CommandButton
                     OverlapFlags =85
-                    Left =10091
+                    Left =10541
                     Top =56
-                    Width =2190
-                    Height =405
+                    Width =1740
+                    Height =450
                     ForeColor =4210752
                     Name ="Command13"
-                    Caption ="Open Pricelist  Report"
+                    Caption ="Open Pricelist"
                     GridlineColor =10921638
                     OnClickEmMacro = Begin
                         Version =196611
@@ -362,17 +364,196 @@ Begin Form
                             Comment ="_AXL:/Argument></Action></Statements></UserInterfaceMacro>"
                         End
                     End
+                    ImageData = Begin
+                        0x2800000010000000100000000100200000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x00000000000000000000000000000000727272ff727272ff727272ff727272ff ,
+                        0x727272ff727272ff727272ff727272ff727272ff727272ff727272ff727272b7 ,
+                        0x00000000000000000000000000000000727272ffffffffffffffffffffffffff ,
+                        0xffffffffffffffffffffffffffffffffffffffffffffffffd7d7d7ff727272ff ,
+                        0x000000000000000000000000b3b3b3ff00000000b3b3b3ffffffffffffffffff ,
+                        0xffffffffffffffffffffffffffffffffffffffffffffffffffffffff727272ff ,
+                        0x00000000000000000000000000000000727272ffffffffffffffffffffffffff ,
+                        0xffffffffffffffffffffffffffffffffffffffffffffffffffffffff727272ff ,
+                        0x00000000000000000000000000000000727272ffffffffffffffffffffffffff ,
+                        0xffffffffffffffffffffffffffffffffffffffffffffffffffffffff727272ff ,
+                        0x000000000000000000000000b3b3b3ff00000000b3b3b3ffffffffffffffffff ,
+                        0xffffffffffffffffffffffffffffffffffffffffffffffffffffffff727272ff ,
+                        0x00000000000000000000000000000000727272ffffffffffffffffffffffffff ,
+                        0xffffffffffffffffffffffffffffffffffffffffffffffffffffffff727272ff ,
+                        0x00000000000000000000000000000000727272ffffffffffffffffffffffffff ,
+                        0xffffffffffffffffffffffffffffffffffffffffffffffffffffffff727272ff ,
+                        0x000000000000000000000000b3b3b3ff00000000b3b3b3ffffffffffffffffff ,
+                        0xffffffffffffffffffffffffffffffffffffffffffffffffffffffff727272ff ,
+                        0x00000000000000000000000000000000727272ffffffffffffffffff90a468ff ,
+                        0x90a468ff90a468ff90a468ff90a468ff90a468ff90a468ffffffffff727272ff ,
+                        0x00000000000000000000000000000000727272ffffffffffffffffff90a468ff ,
+                        0x90a468ff90a468ff90a468ff90a468ff90a468ff90a468ffffffffff727272ff ,
+                        0x000000000000000000000000b3b3b3ff00000000b3b3b3ffffffffffffffffff ,
+                        0xffffffffffffffffffffffffffffffffffffffffffffffffffffffff727272ff ,
+                        0x00000000000000000000000000000000727272ffffffffffffffffffffffffff ,
+                        0xffffffffffffffffffffffffffffffffffffffffffffffffdbdbdbff727272ff ,
+                        0x00000000000000000000000000000000727272ff727272ff727272ff727272ff ,
+                        0x727272ff727272ff727272ff727272ff727272ff727272ff727272ff727272bd ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000
+                    End
 
-                    LayoutCachedLeft =10091
+                    CursorOnHover =1
+                    LayoutCachedLeft =10541
                     LayoutCachedTop =56
                     LayoutCachedWidth =12281
-                    LayoutCachedHeight =461
+                    LayoutCachedHeight =506
+                    PictureCaptionArrangement =5
+                    Alignment =0
                     BackColor =14461583
                     BorderColor =14461583
                     HoverColor =15189940
                     PressedColor =9917743
                     HoverForeColor =4210752
                     PressedForeColor =4210752
+                    WebImagePaddingLeft =2
+                    WebImagePaddingTop =2
+                    WebImagePaddingRight =1
+                    WebImagePaddingBottom =1
+                    Overlaps =1
+                End
+                Begin CommandButton
+                    OverlapFlags =85
+                    Left =8790
+                    Top =60
+                    Width =765
+                    Height =460
+                    TabIndex =1
+                    ForeColor =4210752
+                    Name ="Command14"
+                    Caption ="Command14"
+                    OnClick ="[Event Procedure]"
+                    ControlTipText ="Export All Tables"
+                    GroupTable =2
+                    GridlineColor =10921638
+                    ImageData = Begin
+                        0x2800000010000000100000000100200000000000000000000000000000000000 ,
+                        0x00000000000000000000000000000000b17d4a1bb17d4affb17d4affb17d4a48 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x00000000000000000000000000000000b17d4a21b17d4a27b17d4affb17d4aff ,
+                        0xb17d4a4882c2ea0f82c2eaff82c2eaff82c2eaff82c2eaff82c2eaff82c2eaff ,
+                        0x82c2ea6000000000b17d4a8db17d4affb17d4affb17d4affb17d4affb17d4aff ,
+                        0xb17d4aff0000000082c2eabd82c2eaff82c2eaff82c2eaff82c2eaff82c2eaff ,
+                        0x82c2eaa500000000b17d4af3b17d4aa200000000b17d4a42b17d4affb17d4aff ,
+                        0xb17d4a3082c2ea0f82c2eaff82c2eaff82c2eaff82c2eaff82c2eaff82c2eaff ,
+                        0x82c2eae400000000b17d4afc00000000b17d4a2db17d4affb17d4affb17d4a30 ,
+                        0x82c2ea0f82c2eaff82c2eaff82c2eaff82c2eaff82c2eaff82c2eaff82c2eaff ,
+                        0x82c2eaff82c2ea2a000000000000000000000000000000000000000082c2ea0f ,
+                        0x82c2eaff82c2eaff82c2eaff82c2eaff82c2eaff82c2eaff82c2eaff82c2eaff ,
+                        0x82c2eaff82c2ea6982c2eaff0000000082c2ea7e82c2eaff82c2eaff82c2eaff ,
+                        0x82c2eaff82c2eaff82c2eaff82c2eaff82c2eaff82c2eaff82c2eaff82c2eaff ,
+                        0x82c2eaff82c2eaae82c2eaff0000000082c2ea1882c2eaf982c2eaff82c2eaff ,
+                        0x82c2eaff82c2eaff82c2eaff82c2eaff82c2eaff82c2eaff82c2eaff82c2eaff ,
+                        0x82c2eaff82c2eaea82c2eaff00000000727272ff82c2ea6682c2eaf982c2eaff ,
+                        0x82c2eaff82c2eaff82c2eaff82c2eaff82c2eaff82c2eaff82c2eaff82c2eaff ,
+                        0x82c2eaff82c2eab482c2eaff00000000727272ff000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x000000000000000082c2eaff00000000727272ffb3b3b3ffb3b3b3ffb3b3b3ff ,
+                        0xb3b3b3ffb3b3b3ffb3b3b3ffb3b3b3ffb3b3b3ffb3b3b3ffb3b3b3ffb3b3b3ff ,
+                        0x727272ff0000000082c2ea6300000000727272ffffffffffffffffffffffffff ,
+                        0xb3b3b3ffffffffffffffffffffffffffb3b3b3ffffffffffffffffffffffffff ,
+                        0x727272ff000000000000000000000000727272ffffffffffffffffffffffffff ,
+                        0xb3b3b3ffffffffffffffffffffffffffb3b3b3ffffffffffffffffffffffffff ,
+                        0x727272ff000000000000000000000000b8824dffb8824dffb8824dffb8824dff ,
+                        0xb8824dffb8824dffb8824dffb8824dffb8824dffb8824dffb8824dffb8824dff ,
+                        0xb8824dff000000000000000000000000b8824dffb8824dffb8824dffb8824dff ,
+                        0xb8824dffb8824dffb8824dffb8824dffb8824dffb8824dffb8824dffb8824dff ,
+                        0xb8824dff000000000000000000000000b8824dffb8824dffb8824dffb8824dff ,
+                        0xb8824dffb8824dffb8824dffb8824dffb8824dffb8824dffb8824dffb8824dff ,
+                        0xb8824dff00000000
+                    End
+
+                    LayoutCachedLeft =8790
+                    LayoutCachedTop =60
+                    LayoutCachedWidth =9555
+                    LayoutCachedHeight =520
+                    ColumnStart =2
+                    ColumnEnd =2
+                    LayoutGroup =2
+                    BackColor =14461583
+                    BorderColor =14461583
+                    HoverColor =15189940
+                    PressedColor =9917743
+                    HoverForeColor =4210752
+                    PressedForeColor =4210752
+                    GroupTable =2
+                    WebImagePaddingLeft =2
+                    WebImagePaddingTop =2
+                    WebImagePaddingRight =1
+                    WebImagePaddingBottom =1
+                    Overlaps =1
+                End
+                Begin CommandButton
+                    OverlapFlags =85
+                    Left =9630
+                    Top =60
+                    Width =765
+                    Height =465
+                    TabIndex =2
+                    ForeColor =4210752
+                    Name ="Command18"
+                    Caption ="Command18"
+                    OnClick ="[Event Procedure]"
+                    ControlTipText ="Import Tables from given path"
+                    GroupTable =3
+                    GridlineColor =10921638
+                    ImageData = Begin
+                        0x2800000010000000100000000100200000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x000000000000000000000000000000000000000090a468ff90a468e490a46878 ,
+                        0x000000000000000082c2eaff82c2eaff82c2eaff82c2eaff82c2eaff82c2eaff ,
+                        0x82c2eaff82c2eaff82c2eaff82c2eaff000000000000000090a468ff90a468f3 ,
+                        0x000000000000000082c2eaff82c2eaff82c2eaff82c2eaff82c2eaff82c2eaff ,
+                        0x82c2eaff82c2eaff82c2eaff82c2eaff0000000090a468240000000090a468ff ,
+                        0x90a4680990a4682482c2eaff82c2eac682c2eaff82c2eaff82c2eaff82c2eaff ,
+                        0x82c2eaff82c2eaff82c2eaff82c2eaff0000000090a468ff90a4683390a468ff ,
+                        0x90a4683390a468ff82c2eaff82c2ea5a82c2eaff82c2eaff82c2eaff82c2eaff ,
+                        0x82c2eaff82c2eaff82c2eaff82c2eaff0000000090a468ff90a468ff90a468ff ,
+                        0x90a468ff90a468ff82c2eaff82c2ea0682c2eae782c2eaff82c2eaff82c2eaff ,
+                        0x82c2eaff82c2eaff82c2eaff82c2eaff0000000090a4683990a468ff90a468ff ,
+                        0x90a468ff90a4683982c2eaff0000000082c2ea7e82c2eaff82c2eaff82c2eaff ,
+                        0x82c2eaff82c2eaff82c2eaff82c2eaff82c2eafc0000000090a4683990a468ff ,
+                        0x90a468390000000082c2eaff0000000082c2ea1882c2eaf982c2eaff82c2eaff ,
+                        0x82c2eaff82c2eaff82c2eaff82c2eaff82c2eaff82c2eafc0000000000000000 ,
+                        0x0000000082c2eae782c2eaff00000000727272ff82c2ea6682c2eaf982c2eaff ,
+                        0x82c2eaff82c2eaff82c2eaff82c2eaff82c2eaff82c2eaff82c2eafc82c2eaae ,
+                        0x82c2eaff82c2eab482c2eaff00000000727272ff000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x000000000000000082c2eaff00000000727272ffb3b3b3ffb3b3b3ffb3b3b3ff ,
+                        0xb3b3b3ffb3b3b3ffb3b3b3ffb3b3b3ffb3b3b3ffb3b3b3ffb3b3b3ffb3b3b3ff ,
+                        0x727272ff0000000082c2ea6300000000727272ffffffffffffffffffffffffff ,
+                        0xb3b3b3ffffffffffffffffffffffffffb3b3b3ffffffffffffffffffffffffff ,
+                        0x727272ff000000000000000000000000727272ffffffffffffffffffffffffff ,
+                        0xb3b3b3ffffffffffffffffffffffffffb3b3b3ffffffffffffffffffffffffff ,
+                        0x727272ff000000000000000000000000b17d4affb17d4affb17d4affb17d4aff ,
+                        0xb17d4affb17d4affb17d4affb17d4affb17d4affb17d4affb17d4affb17d4aff ,
+                        0xb17d4aff000000000000000000000000b17d4affb17d4affb17d4affb17d4aff ,
+                        0xb17d4affb17d4affb17d4affb17d4affb17d4affb17d4affb17d4affb17d4aff ,
+                        0xb17d4aff000000000000000000000000b17d4affb17d4affb17d4affb17d4aff ,
+                        0xb17d4affb17d4affb17d4affb17d4affb17d4affb17d4affb17d4affb17d4aff ,
+                        0xb17d4aff00000000
+                    End
+
+                    LayoutCachedLeft =9630
+                    LayoutCachedTop =60
+                    LayoutCachedWidth =10395
+                    LayoutCachedHeight =525
+                    LayoutGroup =3
+                    BackColor =14461583
+                    BorderColor =14461583
+                    HoverColor =15189940
+                    PressedColor =9917743
+                    HoverForeColor =4210752
+                    PressedForeColor =4210752
+                    GroupTable =3
                     WebImagePaddingLeft =2
                     WebImagePaddingTop =2
                     WebImagePaddingRight =1
@@ -614,3 +795,68 @@ Begin Form
         End
     End
 End
+CodeBehindForm
+Attribute VB_GlobalNameSpace = False
+Attribute VB_Creatable = True
+Attribute VB_PredeclaredId = True
+Attribute VB_Exposed = False
+Option Compare Database
+
+Private Sub Command14_Click()
+
+Dim fldr As String
+fldr = CurrentProject.Path
+res = ExpAllTbls(fldr)
+Debug.Print CurrentProject.ImportExportSpecifications.Count
+
+End Sub
+
+Private Sub Command18_Click()
+Dim fldr As String
+Dim res As String
+fldr = CurrentProject.Path
+On Error GoTo ErrorHandler
+    Dim f As Object
+    Dim strFile As String
+    Dim strFolder As String
+    Dim varItem As Variant
+
+    Set f = Application.FileDialog(msoFileDialogFilePicker) ' 3 - file msoFileDialogFolderPicker
+    f.AllowMultiSelect = True
+    f.Title = "aweSome import  ..."
+    f.ButtonName = "select..."
+    If f.Show Then
+
+        For Each varItem In f.SelectedItems
+            strFile = Dir(varItem)
+            strFolder = Left(varItem, Len(varItem) - Len(strFile))
+            res = (strFolder + "\" + strFile)
+            res = ImpTbl(res)
+        Next
+    End If
+    Debug.Print CurrentProject.ImportExportSpecifications.Count
+    
+ExitPoint:
+    Set f = Nothing
+    Exit Sub
+    
+ErrorHandler:
+    'MsgBox "The following error has occurred:" _
+    '& vbNewLine & "Error Number: " & Err.Number _
+    '& vbNewLine & "Error Description: " & Err.Description _
+    ', vbExclamation, "Unexpected Error"
+    MsgBox ChrW(1063) & ChrW(1080) & ": " & Err.Number _
+    & vbNewLine & ChrW(69) & ": " & Err.Description & vbCrLf & CStr(Me.Form.Name) & vbCrLf & CStr(Me.Module.Name) _
+    , vbExclamation, ChrW(1053) & " " & ChrW(1086)
+    Resume ExitPoint
+End Sub
+
+
+
+Private Sub Form_DataChange(ByVal Reason As Long)
+Debug.Print CurrentProject.ImportExportSpecifications.Item(0).XML
+End Sub
+
+Private Sub Form_DataSetChange()
+Debug.Print CurrentProject.ImportExportSpecifications.Item(0).XML
+End Sub

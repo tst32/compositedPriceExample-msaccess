@@ -5,76 +5,84 @@
   },
   "Items": {
     "MergeBuildDate": null,
-    "FullBuildDate": "15.07.2021 13:39:05",
-    "ExportDate": "15.07.2021 13:36:20",
+    "FullBuildDate": "16.07.2021 10:41:33",
+    "ExportDate": "16.07.2021 15:20:08",
     "FullExportDate": "15.07.2021 13:36:20",
     "OptionsHash": "f00c0b0",
     "LastMergedCommit": "",
     "Components": {
       "Forms": {
         "frmRealProducts.bas": {
-          "ExportDate": "15.07.2021 13:36:20",
-          "SourceModified": "15.07.2021 13:36:20",
-          "ImportDate": "15.07.2021 13:39:03"
+          "ExportDate": "16.07.2021 15:20:07",
+          "SourceModified": "16.07.2021 15:20:07",
+          "ImportDate": "16.07.2021 10:41:31",
+          "Hash": "3c92356"
         }
       },
       "Macros": {
         "AutoExec.bas": {
-          "ExportDate": "15.07.2021 13:36:20",
-          "SourceModified": "15.07.2021 13:36:20",
-          "ImportDate": "15.07.2021 13:39:03"
+          "ExportDate": "16.07.2021 15:20:07",
+          "SourceModified": "16.07.2021 15:20:07",
+          "ImportDate": "16.07.2021 10:41:31"
+        }
+      },
+      "Modules": {
+        "Module1.bas": {
+          "Hash": "e5447f6",
+          "ExportDate": "16.07.2021 15:20:08",
+          "SourceModified": "16.07.2021 15:20:08"
         }
       },
       "Queries": {
         "QueryRealProductDetails.bas": {
-          "ExportDate": "15.07.2021 13:36:19",
-          "SourceModified": "15.07.2021 13:36:19",
-          "ImportDate": "15.07.2021 13:39:02"
+          "ExportDate": "16.07.2021 15:20:06",
+          "SourceModified": "16.07.2021 15:20:06",
+          "ImportDate": "16.07.2021 10:41:30"
         },
         "QueryRealProductPrice.bas": {
-          "ExportDate": "15.07.2021 13:36:20",
-          "SourceModified": "15.07.2021 13:36:20",
-          "ImportDate": "15.07.2021 13:39:02"
+          "ExportDate": "16.07.2021 15:20:06",
+          "SourceModified": "16.07.2021 15:20:06",
+          "ImportDate": "16.07.2021 10:41:30"
         }
       },
       "Reports": {
         "PriceList.bas": {
-          "ExportDate": "15.07.2021 13:36:20",
-          "SourceModified": "15.07.2021 13:36:20",
-          "ImportDate": "15.07.2021 13:39:03"
+          "ExportDate": "16.07.2021 15:20:08",
+          "SourceModified": "16.07.2021 15:20:08",
+          "ImportDate": "16.07.2021 10:41:31"
         }
       },
       "Tables": {
         "MicroProducts.xml": {
-          "ExportDate": "15.07.2021 13:36:19",
-          "SourceModified": "15.07.2021 13:36:19",
-          "ImportDate": "15.07.2021 13:39:02"
+          "ExportDate": "16.07.2021 15:20:06",
+          "SourceModified": "16.07.2021 15:20:06",
+          "ImportDate": "16.07.2021 10:41:29"
         },
         "RealProductPrices.xml": {
           "ExportDate": "15.07.2021 13:36:19",
           "SourceModified": "15.07.2021 13:36:19",
-          "ImportDate": "15.07.2021 13:39:02"
+          "ImportDate": "16.07.2021 10:41:30"
         },
         "RealProductsNames.xml": {
-          "ExportDate": "15.07.2021 13:36:19",
-          "SourceModified": "15.07.2021 13:36:19",
-          "ImportDate": "15.07.2021 13:39:02"
+          "ExportDate": "16.07.2021 15:20:06",
+          "SourceModified": "16.07.2021 15:20:06",
+          "ImportDate": "16.07.2021 10:41:30"
         }
       },
       "VB Project": {
         "vbe-project.json": {
           "Hash": "a6767e3",
-          "ExportDate": "15.07.2021 13:36:19",
+          "ExportDate": "16.07.2021 15:20:05",
           "SourceModified": "15.07.2021 13:34:49",
-          "ImportDate": "15.07.2021 13:39:02"
+          "ImportDate": "16.07.2021 10:41:26"
         }
       },
       "VBE References": {
         "vbe-references.json": {
-          "Hash": "00e5845",
-          "ExportDate": "15.07.2021 13:36:19",
-          "SourceModified": "15.07.2021 13:34:49",
-          "ImportDate": "15.07.2021 13:39:02"
+          "Hash": "85a8bfa",
+          "ExportDate": "16.07.2021 15:20:05",
+          "SourceModified": "16.07.2021 15:20:05",
+          "ImportDate": "16.07.2021 10:41:26"
         }
       }
     }
